@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/bootstrap/bootstrap.min.css">
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" type="image/png" href="./assets/images/fav-icon.png"/>
+    <title>Sharekhan - Registration Form</title>
+</head>
+
+<body>
+    <!-- Start Header section -->
+
+    <header class="header">
+        <!-- <img src="./assets/images/path-1436.svg" class="header-border" /> -->
+        <div class="header-border">
+
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="col-sm-6">
+                        <div class="logo-image-registration">
+                            <img src="assets/images/logo.svg" class="Logo">
+                        </div>
+                        <div class="register"><img src="./assets/images/mobile_logo.svg"/></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- End Header section -->
+
+    <!-- <button type="submit" class="btn btn-primary button-submit-mobile">Next</button><input type="button" name="next" class="next btn  button-submit-mobile" value="Next" onsubmit="onQuestionInputChange(event)"/> -->
+    <!-- Banner section starts -->
+    <section id="registration-form">
+        <div class="container"  data-aos="fade-up" data-aos-delay="400">
+            <div class="row">
+                <div class="col-sm-12 form-state">
+                    <img src="./assets/images/cloud1.svg" alt="Cloud-1" class="cloud-1-register">
+                    <div class="col-sm-7 registration-form">
+                        <form action="" name="" class="demo-form" id="registrationForm" data-parsley-validate> 
+                            <!-- Personal details -->
+                            <div class="container progress_container">
+                                <div class="row progress_bar_row">
+                                    <div class="col-sm-12">
+                                        <span class="question_no"></span>
+                                        <div id="progress_bar"></div>
+                                        <div class="progressContainer">
+                                            <div id="progressBar"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> 
+                            <div class="container section_1 question_set active_question" id="question_1">
+                                <fieldset id ="form_01" class="form-section">
+                                    <div class="row form-header">
+                                        <div class="col-sm-12">
+                                            <h2 id="reg-form-title">Hey Trader/Investor, let’s get to know each other...</h2>
+                                        </div>
+                                    </div>
+                                    <div class="row form-data">
+                                        <div class="col-sm-12 d-flex form-set">
+                                            <div class="col-sm-6 input-type">
+                                                <div class="form-group">
+                                                    <label id="question_1" for="fname">Your Full Name please?</label>
+                                                    <input 
+                                                        id="answer_1" 
+                                                        type="text" 
+                                                        name="name"
+                                                        class="form-control input-fields" 
+                                                        required=""
+                                                    />
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <div class="form-group">
+                                                    <label id="question_2" for="age">How old are you?</label>
+                                                    <input 
+                                                        id="answer_2" 
+                                                        type="number"
+                                                        name="age" 
+                                                        onKeyPress="if(this.value.length==2) return false;"
+                                                        class="form-control input-fields"
+                                                        required=""
+                                                        data-parsley-pattern-message="You need to be 18+ to open an account with us."
+                                                        data-parsley-range-message="You need to be 18+ to open an account with us."
+                                                        type="range"
+                                                        data-parsley-range="[18, 100]"
+                                                    />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row form-data">
+                                        <div class="col-sm-12 d-flex form-set">
+                                            <div class="col-sm-6 input-type">
+                                                <div class="form-group">
+                                                    <label id="question_3" for="mobileNo">What is your mobile no.?</label>
+                                                    <input 
+                                                        id="answer_3" 
+                                                        type="tel"
+                                                        maxlength="10"
+                                                        pattern="[0-9]{3}[0-9]{3}[0-9]{4}"
+                                                        name="phone" 
+                                                        class="form-control input-fields"
+                                                        onkeypress="return isNumber(event);"
+                                                        required=""
+                                                    />
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <div class="form-group">
+                                                    <label id="question_4" for="email">Where do we reach you on E-mail ?</label>
+                                                    <input 
+                                                        id="answer_4" 
+                                                        type="email" 
+                                                        name="email"
+                                                        class="form-control input-fields"
+                                                        required=""
+                                                    />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row form-data">
+                                        <div class="col-sm-12 d-flex form-set">
+                                            <div class="col-sm-6 input-type">
+                                                <div class="form-group">
+                                                    <label id="question_5" for="pincode">Pincode</label>
+                                                    <input 
+                                                        id="answer_5" 
+                                                        type="number" 
+                                                        name="pincode"
+                                                        pattern="[0-9]{3}[0-9]{3}"
+                                                        class="form-control input-fields"
+                                                        required=""
+                                                        onKeyPress="if(this.value.length==6) return false;"
+                                                    />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End Fieldset 1 -->
+                                    <!-- <button type="submit" class="btn btn-primary button-submit-desktop next">Next</button> -->
+                                     <div class="form-navigation"> 
+                                        <div id="html_element"></div>
+                                         <p class="disclaimer">*Sharekhan customers do not qualify</p>
+                                        <button type="Submit" value="Submit" id="next" name="next1" class="next btn  button-submit-desktop reg_form_next" 
+                                        data-next="traderorinvestor" data-section="common_question" data-index="personal_data" tabindex="0"
+                                        >Next</button>
+                                        <!-- <button type="button" id="next" name="next1" class="next btn  button-submit-desktop reg_form_next" 
+                                        data-next="traderorinvestor" data-section="common_question" data-index="personal_data" tabindex="0">Next</button> -->
+                                     </div> 
+                                     <!-- <span class="progress_questions"></span> -->
+                                </fieldset>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-sm-5 registration-image">
+                        <img src="./assets/images/form-image.svg" alt="" class="form-image" />
+                    </div>
+                    <img src="./assets/images/cloud1.svg" alt="Cloud-1" class="cloud-1-register2">
+                    <!-- <img src="./assets/images/mobile_bg.svg" alt="Cloud-1" class="mobile-banner-img"> -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Banner section ends -->
+    <!-- The Modal -->
+    <div class="modal fade" id="verifyModal" data-keyboard="false" data-backdrop="static" role="dialog">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <img src="./assets/images/path-1436.svg" class="header-border" />
+            <!-- Modal Header -->
+            <div class="modal-header">
+            <h4 class="modal-title">Enter OTP</h4>
+            <button type="button" class="close" data-dismiss="modal" onclick="clearField();">×</button>
+            </div>
+            <p class="modal-para">Type below the access code sent via SMS for mobile number verification</p>
+            <!-- Modal body -->
+            <div class="modal-body">
+                <p id="resend_msg" style="text-align:center;color:green;"></p>
+                <p id="error_msg" style="text-align:center;color:green;"></p>
+                
+                <div class="wrap-input100 validate-input" data-validate = "Password is required">
+                    <input class="input100" type="text" id="otp" name="otp" maxlength="6">
+                    <span class="focus-input100"></span>
+                    <span class="symbol-input100">
+                        <i class="fa fa-lock" aria-hidden="true"></i>
+                    </span>
+                    <!-- <span>Didn't receive OTP?</span>
+                    <a href="#">Didn't receive OTP?</a> -->
+                </div>
+                <p class="otp_error">Invalid OTP</p>
+                <p class="otp_success">Verified</p>
+                <div class="container-login100-form-btn">
+                    <button class="login100-form-btn" id="otp_submit" type="button">
+                        Submit
+                    </button>
+                </div>
+                <!-- <div class="container-login100-form-btn">
+                    <button class="login100-form-btn" id="otp_resend">
+                        Resend
+                    </button>
+                </div> -->
+            </div>
+            <!-- Modal footer -->
+            </div>
+        </div>
+    </div>
+
+    <script type="x-tmpl-mustache" id="single_selection">
+            <fieldset class="input_section form_02 form-section singleselect">
+                <h1 id="reg-title">{{title}}</h1>
+                <div class="row form-header">
+                    <div class="col-sm-12">
+                        <h2 id="reg-form-title">{{question}}</h2>
+                    </div>
+                </div>
+                <div class="row radio-data">
+                    <div class="col-sm-12 form-set">
+                        <div class="row input-type row-radio">
+                            {{#options}}
+                            <div class="col-md-6 input-type input-box">
+                                <div class="form-group radio_form input-fields-type" id="option_{{value}}">
+	                                <input type="radio" class="form-check-input-type form_data_radio check_data_box" class="{{current_section}}_{{current_index}}_{{id}}"
+                                    name="input_{{id}}" value="{{value}}" id="option_{{value}}" data-required="true" onchange="hideValidate(event);"/>
+                                    <label class="form-radio-label label_for_check" for="option_{{value}}" id="option_{{value}}">{{label}}</label>
+                                </div>
+                            </div>
+                            {{/options}}
+                            <div class="text col-md-6 input-type input-box">
+                                <input type="text" name="text1" class="text1" id="text1" maxlength="30" placeholder="Other preferred broker" onchange="hideValidate10ka(event);"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <p class="validate" id="input_{{id}}">Please select any one option!</p>
+                    <p class="validate10ka" id="input_{{id}}_other">Please enter your preferred broker!</p>
+                </div>
+                <div class="last_section_checkbox" id="last_section_checkbox">
+                    <p class="t_c">*Agree to the Terms and Conditions below</p>
+                    <div class="checkbox checkbox-yellow col-md-12 input-box">
+                        <div class="form-group">
+                            <input 
+                                type="checkbox" 
+                                id="term_{{id}}"
+                                class="form-check-input checkbox-button check_data_box form_data_checkbox t-cblock" 
+                                name="tandc_block"
+                                value="termsAndConditions"
+                                data-required="true"
+                                onchange="enableButton(event);"
+                            />
+                            <label class="form-check-label label_for_check tclabel" id="termc_{{id}}" onclick="openUrl();">Terms & Conditions</label>
+                        </div>
+                    </div>
+                    
+                    <div class="checkbox checkbox-yellow col-md-12 input-box">
+                        <div class="form-group">
+                            <input 
+                                type="checkbox" 
+                                class="form-check-input checkbox-button check_data_box form_data_checkbox" 
+                                name="tandc_block"
+                                value="agreeToInvest"
+                                id="investtotrade_{{id}}"
+                                data-required="true"
+                                onchange="enableButton(event);"
+                            />
+                            <label class="form-check-label label_for_check" for="investtotrade_{{id}}">I agree to give margin of 5 lakhs to ShareKhan</label>
+                        </div>
+                    </div>
+                </div>
+                <button type="button" name="previous" class="previous btn  desktop button-back-desktop reg_form_previous" data-input_id="{{id}}"
+                data-section="{{current_section}}" data-index="{{current_index}}" data-input_type="{{question_type}}" tabindex="-1">Back</button>
+                <i class="fa fa-angle-left mobile btn  mobile mobile-previous back_{{id}}" aria-hidden="true" id="reg_form_previous" data-input_id="{{id}}"
+                data-section="{{current_section}}" data-index="{{current_index}}" data-input_type="{{question_type}}">
+                </i>
+                <button type="button" id="{{id}}" name="next2" class="next2 next btn  button-submit-desktop reg_form_next" data-next="{{next}}"
+                data-section="{{current_section}}" data-index="{{current_index}}" 
+                data-input_id="{{id}}" data-input_type="{{question_type}}" tabindex="0">Next</button>
+
+                <!-- <button type="button" id="{{id}}" name="next2" class="next2 next btn  button-submit-desktop reg_form_next" data-next="{{next}}"
+                data-section="{{current_section}}" data-index="{{current_index}}" 
+                data-input_id="{{id}}" data-input_type="{{question_type}}" tabindex="0">Skip</button> -->
+        </fieldset>
+    </script>
+
+    <script type="x-tmpl-mustache" id="multiple_selection">
+            <fieldset class="input_section form_3 form-section multiselect">
+                <h1 id="reg-title">{{title}}</h1>
+                <div class="row form-header">
+                    <div class="col-sm-12">
+                        <h2 id="reg-form-title">{{question}}</h2>
+                    </div>
+                </div>
+                <div class="row checkbox-data">
+                    <div class="col-sm-12 form-set">
+                        <div class="row">
+                            {{#options}}
+                            <div class="checkbox checkbox-yellow col-md-6 input-box">
+                                <div class="form-group input-fields-checkbox">
+                                    <input 
+                                        type="checkbox" 
+                                        class="form-check-input checkbox-button check_data_box form_data_checkbox {{current_section}}_{{current_index}}_{{id}}" 
+                                        name="input_{{id}}"
+                                        value="{{value}}"
+                                        id="option_{{value}}"
+                                        data-required="true"
+                                        onchange="hideValidate(event);"
+                                    />
+                                    <label class="form-check-label label_for_check" for="option_{{value}}" id="option_{{value}}">{{label}}</label>
+                                </div>
+                            </div>
+                            {{/options}}
+                        </div>
+                    </div>
+                    <p class="validate" id="input_{{id}}">Please select any one option!</p>
+                    <p class="validate2" id="input_{{id}}_2">Please select any one option or maximum 3 options!</p>
+                    <p class="validate3" id="input_{{id}}_3">*Maximum 3 options can be selected!</p>
+                </div>
+                <div class="last_section_checkbox" id="last_section_checkbox">
+                    <p class="t_c">*Agree to the Terms and Conditions below</p>
+                    <div class="checkbox checkbox-yellow col-md-12 input-box">
+                        <div class="form-group">
+                            <input 
+                                type="checkbox" 
+                                id="term_{{id}}"
+                                class="form-check-input checkbox-button check_data_box form_data_checkbox t-cblock" 
+                                name="tandc_block"
+                                value="termsAndConditions"
+                                data-required="true"
+                                onchange="enableButton(event);"
+                                onclick="openUrl();"
+                            />
+                            <label class="form-check-label label_for_check tclabel" id="termc_{{id}}" onclick="openUrl();">Terms & Conditions</label>
+                        </div>
+                    </div>
+                    
+                    <div class="checkbox checkbox-yellow col-md-12 input-box">
+                        <div class="form-group">
+                            <input 
+                                type="checkbox" 
+                                class="form-check-input checkbox-button check_data_box form_data_checkbox" 
+                                name="tandc_block"
+                                value="agreeToInvest"
+                                id="investtotrade_{{id}}"
+                                data-required="true"
+                                onchange="enableButton(event);"
+                            />
+                            <label class="form-check-label label_for_check" for="investtotrade_{{id}}">I agree to give margin of 5 lakhs to ShareKhan</label>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="form-navigation"> -->
+                    <button type="button" name="previous" class="previous btn desktop button-back-desktop reg_form_previous" data-input_id="{{id}}"
+                    data-section="{{current_section}}" data-index="{{current_index}}" data-input_type="{{question_type}}" tabindex="-1">Back</button>
+                    <i class="fa fa-angle-left mobile btn  mobile mobile-previous back_{{id}}" aria-hidden="true" id="reg_form_previous" data-input_id="{{id}}"
+                    data-section="{{current_section}}" data-index="{{current_index}}" data-input_type="{{question_type}}">
+                    </i>
+                    <button type="button" id="{{id}}" name="next2" class="next btn  button-submit-desktop reg_form_next next2" data-next="{{next}}" data-section="{{current_section}}" data-index="{{current_index}}" data-input_id="{{id}}" data-input_type="{{question_type}}" 
+                    tabindex="0">Next</button>
+                    <!-- <button type="button" id="{{id}}" name="next2" class="next btn  button-submit-desktop reg_form_next next2" data-next="{{next}}" data-section="{{current_section}}" data-index="{{current_index}}" data-input_id="{{id}}" data-input_type="{{question_type}}" 
+                    tabindex="0">Skip</button> -->
+                <!-- </div> -->
+        </fieldset>
+    </script>
+    
+    <script type="x-tmpl-mustache" id="textarea">
+            <fieldset class="input_section form_4 form-section textarea">
+                <h1 id="reg-title">{{title}}</h1>
+                <div class="row form-header">
+                    <div class="col-sm-12">
+                        <h2 id="reg-form-title">{{question}}</h2>
+                    </div>
+                </div>
+                <div class="row textarea_data">
+                    <div class="col-sm-12 form-set">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <textarea class="form-control {{current_section}}_{{current_index}}_{{id}}" rows="3" name="input_{{id}}" id="input_{{id}}" value="{{value}}" data-required="true"></textarea>
+                                </div>
+                            </div>
+                            <p class="validate" id="input_{{id}}"></p>
+                        </div>
+                    </div>
+                </div>
+                <button type="button" name="previous" class="previous btn desktop button-back-desktop reg_form_previous" data-input_id="{{id}}"
+                data-section="{{current_section}}" data-index="{{current_index}}" data-input_type="{{question_type}}" tabindex="-1">Back</button>
+                <i class="fa fa-angle-left mobile btn  mobile mobile-previous back_{{id}}" aria-hidden="true" id="reg_form_previous" data-input_id="{{id}}"
+                data-section="{{current_section}}" data-index="{{current_index}}" data-input_type="{{question_type}}">
+                </i>
+                <button type="button" id="{{id}}" name="next2" class="next2 next btn  button-submit-desktop reg_form_next" data-next="{{next}}" data-section="{{current_section}}" data-index="{{current_index}}" data-input_id="{{id}}" data-input_type="{{question_type}}"
+                tabindex="0">Next</button>
+                <!-- <button type="button" id="{{id}}" name="next2" class="next2 next btn  button-submit-desktop reg_form_next" data-next="{{next}}" data-section="{{current_section}}" data-index="{{current_index}}" data-input_id="{{id}}" data-input_type="{{question_type}}"
+                tabindex="0">Skip</button> -->
+        </fieldset>
+    </script>
+    
+    
+    <script src="assets/js/bootstrap/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.js"></script>
+    <script src="./node_modules/mustache/mustache.min.js"></script>
+    <script src="assets/js/bootstrap/bootstrap.min.js"></script>
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <script src="assets/js/bootstrap/custome.js"></script>
+    <script src="assets/js/data.js"></script>
+    <script src="assets/js/parsley.min.js"></script>
+    <script src="assets/js/parsley.js"></script>
+
+    <!-- Validating a form -->
+    <script>
+    const enableButton = evt => {
+        var terms_condition_check = $('input[name=tandc_block]:checked').length;
+        if(terms_condition_check > 1)
+        {
+            $('.next2').attr('disabled', false).removeClass('disable-hover');
+        }
+        else{
+            $('.next2').attr('disabled', true).addClass('disable-hover');
+
+        }
+    }
+
+    const hideValidate = evt => {
+        if(evt.currentTarget.name == "input_9")
+        {
+            var checkbox_input_len = $('input[name='+evt.currentTarget.name+']:checked').length;
+            if(checkbox_input_len < 4)
+            {
+                $('#'+evt.currentTarget.name+'_2').css('display','none');
+                $('#'+evt.currentTarget.name+'_3').css('display','none');
+            }
+            else{
+                $('#'+evt.currentTarget.name+'_2').css('display','block');
+            }
+            if(checkbox_input_len == 3){
+                $('#'+evt.currentTarget.name+'_3').css('display','block');
+            }
+        }
+        else
+        {
+            $('#'+evt.currentTarget.name).css('display','none');
+            $('#input_10_other').css('display','none');
+        }
+
+        if($('input[name=tandc_block]:checked').length > 1){
+            $('input[name=tandc_block]').attr('checked', 'checked');
+        }
+        
+        if($('[name='+evt.currentTarget.name+']:last:checked').length == 1){
+            // if(evt.currentTarget.id == "option_noa"){
+                // // if($('input[name=tandc_block]:checked').length > 1){
+                //     $(':checkbox[name=input_9]:disabled').attr('disabled', false);
+                // // }
+                // else{
+                    $(':checkbox[name='+evt.currentTarget.name+']').not(':checked').attr('disabled', true);
+                // }
+            // }
+        }
+        else{
+            // if(evt.currentTarget.id == "option_noa"){
+                $(':checkbox[name='+evt.currentTarget.name+']:disabled').attr('disabled', false);
+            // }
+        }
+
+        if(evt.currentTarget.name == "input_9"){
+            var checkbox_input_len = $('input[name='+evt.currentTarget.name+']:checked').length;
+            var maxChecks = 3;
+            if($('[name='+evt.currentTarget.name+']:last:checked').length != 1){
+                if (checkbox_input_len >= maxChecks) {
+                    $(':checkbox[name=input_9]').not(':checked').attr('disabled', true);
+                } else {
+                    $(':checkbox[name=input_9]:disabled').attr('disabled', false);
+                }
+            }
+        }
+
+        if(evt.currentTarget.id == "option_10k"){
+            $('input[name=text1]').addClass('show_textbox');
+            $('.text').addClass('show_div');
+        }
+        else{
+            $('input[name=text1]').removeClass('show_textbox');
+            $('.text').removeClass('show_div');
+        }
+    }
+
+    const hideValidate10ka = evt =>{
+        if(evt.currentTarget.value != null){
+            $('#input_10_other').css('display','none');
+        }
+        else{
+            $('#input_10_other').css('display','block');
+        }
+    }
+
+    document.querySelector("#answer_2").addEventListener("keypress", function (evt) {
+        if (evt.which != 8 && evt.which != 0 && evt.which < 48 || evt.which > 57 || evt.which == 229)
+        {
+            evt.preventDefault();
+        }
+        if(evt.which == 229){
+            evt.preventDefault();
+        }
+    });
+
+    $('#answer_2').keypress(function(e){ 
+        if (this.value.length == 0 && e.which == 48 ){
+            return false;
+        }
+    });
+
+    $('#answer_2').on('keyup', function (evt) {
+        if (evt.which == 158){
+            evt.preventDefault();
+        }
+    });
+
+    // document.querySelector("#answer_5").addEventListener("keypress", function (evt) {
+    //     if (evt.which != 8 && evt.which != 0 && (evt.which < 48 || evt.which > 57) || (evt.keyCode >= 96 && evt.keyCode <= 105))
+    //     {
+    //         evt.preventDefault();
+    //     }
+    //     if(evt.which == 56){
+    //         evt.preventDefault();
+    //     }
+    // });
+
+    function isNumber(event){
+        var keycode = event.keyCode;
+        if(keycode >= 48 && keycode <= 57){
+            return true;
+        }
+        return false;
+    }
+
+    function openUrl() {
+        window.open("./assets/pdf/Final_Terms&Conditions(T&C).pdf", "_blank");
+    }
+
+    // function validateAge(){
+    //     if($('#answer_2').val() != ""){
+    //         if($('#answer_2').val() < 18){
+    //             // $('#answer_2').attr('data-parsley-required-message', "Age must be greater than 18");
+    //             // $('#parsley-id-7 li').css('display','block');
+    //             $('#age_error').parsley('addError', { mycustomerror: "Age must be greater than 18"} );
+    //         }
+    //         else{
+    //             $('#parsley-id-7 li').css('display','none');
+    //         }
+    //     }
+    // }
+
+    function alertAge(mesg){
+        $.alert({
+            content: mesg,
+        });
+    }
+
+    </script>
+    <!-- <script>window.scrollTo(0,0);</script> -->
+    <script type="text/javascript">
+    // $(document).ready(function(){
+    //     var current_fs, next_fs, previous_fs; //fieldsets
+    //     var opacity;
+    //     var current = 1;
+    //     var steps = $("fieldset").length;
+
+    //     setProgressBar(current);
+
+    //     function setProgressBar(curStep){
+    //         var percent = parseFloat(100 / steps) * curStep;
+    //         percent = percent.toFixed();
+    //         $(".progress-bar").css("width",percent+"%")
+    //     }
+    // });
+ $(document).ready(function() {
+    
+    $(document).on('click','input[type="checkbox"]',function(){
+        parent = $(this).parents(".question_set");
+        if($(this).next("label").text() == "None of the above"){
+            $(this).parents(".question_set").find('input[type="checkbox"]').not(this).prop('checked', false); 
+        }
+    });
+ });
+    </script>
+    <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer></script>
+      <script type="text/javascript">
+      var onloadCallback = function() {
+        grecaptcha.render('html_element', {
+          'sitekey' : '6LcHZ-AUAAAAAJE5LxKhmw7eYhCwEvYCEKI0LDsp',
+          'expired-callback': fnCallback
+        });
+        // setInterval(function(){ grecaptcha.reset(); }, 5 * 60 * 1000 ); 
+      };
+
+      function fnCallback(){
+          setInterval(function(){ grecaptcha.reset(); }, 5 * 60 * 1000 );
+      }
+
+    </script>
+</body>
+
+</html>

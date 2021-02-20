@@ -1,0 +1,1920 @@
+{
+    "common_question": 
+      {
+        "title": "Hello trader, Lets get to know each other better!",
+        "personal_data": 
+        [
+          {
+            "id": "1",
+            "question": "Your Full Name please?",
+            "options": null,
+            "key": "name",
+            "question_type": "string",
+            "user_answer": null,
+            "user_attempted": false
+          },
+          {
+            "id": "2",
+            "question": "How old are you?",
+            "options": null,
+            "key": "age",
+            "question_type": "number",
+            "user_answer": null,
+            "user_attempted": false
+          },
+          {
+            "id": "3",
+            "question": "What is your mobile no.?",
+            "options": null,
+            "key": "phone",
+            "question_type": "number",
+            "user_answer": null,
+            "user_attempted": false
+          },
+          {
+            "id": "4",
+            "question": "Where do we reach you on E-mail?",
+            "options": null,
+            "key": "email",
+            "question_type": "string",
+            "user_answer": null,
+            "user_attempted": false
+          },
+          {
+            "id": "5",
+            "question": "Pincode",
+            "options": null,
+            "key": "pincode",
+            "question_type": "number",
+            "user_answer": null,
+            "user_attempted": false
+          }
+        ],
+        "section_1_completed":false
+      }
+    ,
+    "traderorinvestor": 
+    [
+      {
+        "id": "6",
+        "key": "input_6",
+        "question": "How long have you been trading/ investing?",
+        "title": "Help us know you better as a Trader/Investor",
+        "options": 
+        [
+          {
+            "value": "6a",
+            "label": "<3 months"
+          },
+          {
+            "value": "6b",
+            "label": "3 to 12 months"
+          },
+          {
+            "value": "6c",
+            "label": "1 year to 2 years"
+          },
+          {
+            "value": "6d",
+            "label": ">2 years"
+          },
+          {
+            "value": "6h",
+            "label": "None of the above"
+          }
+        ],
+        "question_type": "single_selection",
+        "select_answer": null,
+        "user_attempted": false
+      },
+      {
+        "id": "7",
+        "question": "You look for opportunities in which time frame?",
+        "options": 
+        [
+          {
+            "value": "7a",
+            "label": "Intraday"
+          },
+          {
+            "value": "7b",
+            "label": "Short term (2-7 days)"
+          },
+          {
+            "value": "7c",
+            "label": "Long term (8-30 days)"
+          },
+          {
+            "value": "7d",
+            "label": "Investor (>1 month)"
+          },
+          {
+            "value": "7h",
+            "label": "None of the above"
+          }
+        ],
+        "question_type": "single_selection",
+        "select_answer": null,
+        "user_attempted": false
+      },
+      {
+        "id": "8",
+        "question": "How many trades do you place through the day?",
+        "options": 
+        [
+          {
+            "value": "8a",
+            "label": "0 to 5"
+          },
+          {
+            "value": "8b",
+            "label": "5 to 10"
+          },
+          {
+            "value": "8c",
+            "label": "10 to 25"
+          },
+          {
+            "value": "8d",
+            "label": "25 and above"
+          },
+          {
+            "value": "8h",
+            "label": "None of the above"
+          }
+        ],
+        "question_type": "single_selection",
+        "select_answer": null,
+        "user_attempted": false
+      },
+      {
+        "id": "9",
+        "question": "* Which segments do you trade/ invest in?",
+        "options": 
+        [
+          {
+            "value": "9a",
+            "label": "Stock/Shares"
+          },
+          {
+            "value": "9b",
+            "label": "Stock Futures"
+          },
+          {
+            "value": "9c",
+            "label": "Index Futures"
+          },
+          {
+            "value": "9d",
+            "label": "Commodity"
+          },
+          {
+            "value": "9e",
+            "label": "Currency"
+          },
+          {
+            "value": "9f",
+            "label": "Stock Options"
+          },
+          {
+            "value": "9g",
+            "label": "Index Options"
+          },
+          {
+            "value": "9h",
+            "label": "None of the above"
+          }
+        ],
+        "question_type": "multiple_selection",
+        "select_answer": null,
+        "user_attempted": false
+      },
+      {
+        "id": "11",
+        "question": "What do you like about your current broker?",
+        "options": null,
+        "question_type": "textarea",
+        "select_answer": null,
+        "user_attempted": false
+      },
+      {
+        "id": "12",
+        "question": "What isn't working for you with your current broker?",
+        "options": null,
+        "question_type": "textarea",
+        "select_answer": null,
+        "user_attempted": false
+      }
+    ],
+    "dependsOn_7d":
+    [
+      {
+        "id": "13",
+        "title": "Help us understand your approach when it comes to trading and investment",
+        "question": "On average, how profitable do you consider your trading/ investing overall?",
+        "options": [
+          {
+            "value": "13a",
+            "label": "Not profitable"
+          },
+          {
+            "value": "13b",
+            "label": "Hard to tell"
+          },
+          {
+            "value": "13c",
+            "label": "Slightly profitable"
+          },
+          {
+            "value": "13d",
+            "label": "Consistently profitable"
+          },
+          {
+            "value": "13h",
+            "label": "None of the above"
+          }
+        ],
+        "question_type": "single_selection",
+        "select_answer": null,
+        "user_attempted": false
+      },
+      {
+        "id": "14",
+        "question": "When an investment opportunity is presented to you, how do you react ?",
+        "options": [
+          {
+            "value": "14a",
+            "label": "Buy first research later"
+          },
+          {
+            "value": "14b",
+            "label": "Don't research rely on the trend"
+          },
+          {
+            "value": "14c",
+            "label": "Seek professional guidance"
+          },
+          {
+            "value": "14d",
+            "label": "Research by myself"
+          },
+          {
+            "value": "14h",
+            "label": "None of the above"
+          }
+        ],
+        "question_type": "multiple_selection",
+        "select_answer": null,
+        "user_attempted": false
+      },
+      {
+        "id": "15",
+        "question": "Why do you invest in long term?",
+        "options": [
+          {
+            "value": "15a",
+            "label": "Buy a luxury car"
+          },
+          {
+            "value": "15b",
+            "label": "Foreign tour"
+          },
+          {
+            "value": "15c",
+            "label": "Children's education/ marriage"
+          },
+          {
+            "value": "15d",
+            "label": "Retirement/ wealth creation"
+          },
+          {
+            "value": "15h",
+            "label": "None of the above"
+          }
+        ],
+        "question_type": "multiple_selection",
+        "select_answer": null,
+        "user_attempted": false
+      },
+      {
+        "id": "16",
+        "title": "Help us understand your approach towards investing",
+        "question": "In the last four months the overall stock market lost 25% of its value. Some of your investments lost 25% too. What would you do?",
+        "options": [
+          {
+            "value": "16a",
+            "label": "Sell all shares"
+          },
+          {
+            "value": "16b",
+            "label": "Sell some shares"
+          },
+          {
+            "value": "16c",
+            "label": "Do nothing"
+          },
+          {
+            "value": "16d",
+            "label": "Buy more"
+          },
+          {
+            "value": "16e",
+            "label": "Look for advice"
+          },
+          {
+            "value": "16h",
+            "label": "None of the above"
+          }
+        ],
+        "question_type": "single_selection",
+        "select_answer": null,
+        "user_attempted": false
+      },
+      {
+        "id": "17",
+        "question": "What is the maximum loss you're willing to incur before selling your shares?",
+        "options": [
+          {
+            "value": "17a",
+            "label": "Never sell at loss"
+          },
+          {
+            "value": "17b",
+            "label": "5%"
+          },
+          {
+            "value": "17c",
+            "label": "5 to 15 %"
+          },
+          {
+            "value": "17d",
+            "label": "15 to 25 %"
+          },
+          {
+            "value": "17e",
+            "label": "25 % and more"
+          },
+          {
+            "value": "17h",
+            "label": "None of the above"
+          }
+        ],
+        "question_type": "single_selection",
+        "select_answer": null,
+        "user_attempted": false,
+        "section_7D_completed":false
+      }
+    ],
+    "approachesToTrading_GRP1":
+    [
+      {
+        "id": "18",
+        "title": "Help us understand your approach when it comes to trading and investment",
+        "question": "How long do you stay in a trade?",
+        "options": [
+          {
+            "value": "18a",
+            "label": "Intraday"
+          },
+          {
+            "value": "18b",
+            "label": "Buy Today, Sell Tomorrow"
+          },
+          {
+            "value": "18c",
+            "label": "Few weeks, Short term position"
+          },
+          {
+            "value": "18d",
+            "label": "2 years +"
+          },
+          {
+            "value": "18h",
+            "label": "None of the above"
+          }
+        ],
+        "question_type": "multiple_selection",
+        "select_answer": null,
+        "user_attempted": false
+      },
+      {
+        "id": "19",
+        "question": "What is your source of information for stock selection?",
+        "options": [
+          {
+            "value": "19a",
+            "label": "News"
+          },
+          {
+            "value": "19b",
+            "label": "Charts"
+          },
+          {
+            "value": "19c",
+            "label": "Technical"
+          },
+          {
+            "value": "19d",
+            "label": "Fundamental"
+          },
+          {
+            "value": "19e",
+            "label": "Self Strategy"
+          },
+          {
+            "value": "19h",
+            "label": "None of the above"
+          }
+        ],
+        "question_type": "multiple_selection",
+        "select_answer": null,
+        "user_attempted": false
+      },
+      {
+        "id": "20",
+        "question": "What level of risk do you play on any individual cash trade?",
+        "options": [
+          {
+            "value": "20a",
+            "label": "Not defined, opportunity centric"
+          },
+          {
+            "value": "20b",
+            "label": "2% or less"
+          },
+          {
+            "value": "20c",
+            "label": "2 to  5 %"
+          },
+          {
+            "value": "20d",
+            "label": "5%"
+          },
+          {
+            "value": "20h",
+            "label": "None of the above"
+          }
+        ],
+        "question_type": "single_selection",
+        "select_answer": null,
+        "user_attempted": false
+      },
+      {
+        "id": "21",
+        "question": "What is your ultimate trading goal?",
+        "options": [
+          {
+            "value": "21a",
+            "label": "Make trading as my primary source of income"
+          },
+          {
+            "value": "21b",
+            "label": "Make extra money to spend on indulgence"
+          },
+          {
+            "value": "21c",
+            "label": "To build wealth"
+          },
+          {
+            "value": "21d",
+            "label": "Extra income over salary/ Secondary source of income"
+          },
+          {
+            "value": "21h",
+            "label": "None of the above"
+          }
+        ],
+        "question_type": "single_selection",
+        "select_answer": null,
+        "user_attempted": false
+      },
+      {
+        "id": "22",
+        "question": "What is your biggest trading fear?",
+        "title": "Help us understand your approach when it comes to trading in Futures",
+        "options": [
+          {
+            "value": "22a",
+            "label": "Order not executed by broker"
+          },
+          {
+            "value": "22b",
+            "label": "Being in the wrong long or short"
+          },
+          {
+            "value": "22c",
+            "label": "Missing out on a big opportunity"
+          },
+          {
+            "value": "22d",
+            "label": "Stop loss not triggered by the system"
+          },
+          {
+            "value": "22h",
+            "label": "None of the above"
+          }
+        ],
+        "question_type": "multiple_selection",
+        "select_answer": null,
+        "user_attempted": false
+      },
+      {
+        "id": "23",
+        "question": "What level of risk do you play on any individual futures trade?",
+        "options": [
+          {
+            "value": "23a",
+            "label": "Not defined, opportunity centric"
+          },
+          {
+            "value": "23b",
+            "label": "2% or less"
+          },
+          {
+            "value": "23c",
+            "label": "2 to  5 %"
+          },
+          {
+            "value": "23d",
+            "label": "5%"
+          },
+          {
+            "value": "23h",
+            "label": "None of the above"
+          }
+        ],
+        "question_type": "multiple_selection",
+        "select_answer": null,
+        "user_attempted": false
+      },
+      {
+        "id": "24",
+        "question": "When it comes to being disciplined about trading, most often you see yourself as?",
+        "options": [
+          {
+            "value": "24a",
+            "label": "Not at all"
+          },
+          {
+            "value": "24b",
+            "label": "Varies on each opportunity"
+          },
+          {
+            "value": "24c",
+            "label": "Very disciplined"
+          },
+          {
+            "value": "24h",
+            "label": "None of the above"
+          }
+        ],
+        "question_type": "multiple_selection",
+        "select_answer": null,
+        "user_attempted": false
+      },
+      {
+        "id": "25",
+        "question": "How confident are you to make a reasonable profit over the last 12 months?",
+        "options": [
+          {
+            "value": "25a",
+            "label": "Not confident"
+          },
+          {
+            "value": "25b",
+            "label": "Reasonably confident"
+          },
+          {
+            "value": "25c",
+            "label": "Very confident"
+          },
+          {
+            "value": "25d",
+            "label": "No idea"
+          },
+          {
+            "value": "25h",
+            "label": "None of the above"
+          }
+        ],
+        "question_type": "multiple_selection",
+        "select_answer": null,
+        "user_attempted": false,
+        "end_of_questions":false
+      }
+    ],
+    "approachesToTrading_GRP2":
+    [
+      {
+        "id": "26",
+        "title": "Help us understand your approach when it comes to trading and investment",
+        "question": "How long do you stay in a trade?",
+        "options": 
+        [
+          {
+            "value": "26a",
+            "label": "Intraday"
+          },
+          {
+            "value": "26b",
+            "label": "Buy Today, Sell Tomorrow"
+          },
+          {
+            "value": "26c",
+            "label": "Few weeks, Short term position"
+          },
+          {
+            "value": "26d",
+            "label": "2 years +"
+          },
+          {
+            "value": "26h",
+            "label": "None of the above"
+          }
+        ],
+        "question_type": "multiple_selection",
+        "select_answer": null,
+        "user_attempted": false
+      },
+      {
+        "id": "27",
+        "question": "What is your source of information for stock selection?",
+        "options": [
+          {
+            "value": "27a",
+            "label": "News"
+          },
+          {
+            "value": "27b",
+            "label": "Charts"
+          },
+          {
+            "value": "27c",
+            "label": "Technical"
+          },
+          {
+            "value": "27d",
+            "label": "Fundamental"
+          },
+          {
+            "value": "27e",
+            "label": "Self Strategy"
+          },
+          {
+            "value": "27h",
+            "label": "None of the above"
+          }
+        ],
+        "question_type": "multiple_selection",
+        "select_answer": null,
+        "user_attempted": false
+      },
+      {
+        "id": "28",
+        "question": "What level of risk do you play on any individual cash trade?",
+        "options": [
+          {
+            "value": "28a",
+            "label": "Not defined, opportunity centric"
+          },
+          {
+            "value": "28b",
+            "label": "2% or less"
+          },
+          {
+            "value": "28c",
+            "label": "2 to  5 %"
+          },
+          {
+            "value": "28d",
+            "label": "5%"
+          },
+          {
+            "value": "28h",
+            "label": "None of the above"
+          }
+        ],
+        "question_type": "single_selection",
+        "select_answer": null,
+        "user_attempted": false
+      },
+      {
+        "id": "29",
+        "question": "What is your ultimate trading goal?",
+        "options": [
+          {
+            "value": "29a",
+            "label": "Make trading as my primary source of income"
+          },
+          {
+            "value": "29b",
+            "label": "Make extra money to spend on indulgence"
+          },
+          {
+            "value": "29c",
+            "label": "To build wealth"
+          },
+          {
+            "value": "29d",
+            "label": "Extra income over salary/ Secondary source of income"
+          },
+          {
+            "value": "29h",
+            "label": "None of the above"
+          }
+        ],
+        "question_type": "single_selection",
+        "select_answer": null,
+        "user_attempted": false
+      },
+      {
+        "id": "30",
+        "question": "How many trading strategies do you use?",
+        "title": "Help us understand your approach when it comes to trading in Options",
+        "options": [
+          {
+            "value": "30a",
+            "label": "0"
+          },
+          {
+            "value": "30b",
+            "label": "1 to 2"
+          },
+          {
+            "value": "30c",
+            "label": "2 to 4"
+          },
+          {
+            "value": "30d",
+            "label": "5 and more"
+          },
+          {
+            "value": "30h",
+            "label": "None of the above"
+          }
+        ],
+        "question_type": "single_selection",
+        "select_answer": null,
+        "user_attempted": false
+      },
+      {
+        "id": "31",
+        "question": "Do you keep a record of every trade you make ?",
+        "options": [
+          {
+            "value": "31a",
+            "label": "Yes, Sometimes"
+          },
+          {
+            "value": "31b",
+            "label": "Yes, Always"
+          },
+          {
+            "value": "31c",
+            "label": "No"
+          },
+          {
+            "value": "31h",
+            "label": "None of the above"
+          }
+        ],
+        "question_type": "single_selection",
+        "select_answer": null,
+        "user_attempted": false
+      },
+      {
+        "id": "32",
+        "question": "Do you think its easy to make money trading in Options?",
+        "options": [
+          {
+            "value": "32a",
+            "label": "Very difficult"
+          },
+          {
+            "value": "32b",
+            "label": "Easy, if you know what you're upto"
+          },
+          {
+            "value": "32c",
+            "label": "With some luck, its easy"
+          },
+          {
+            "value": "32d",
+            "label": "Moderate"
+          },
+          {
+            "value": "32h",
+            "label": "None of the above"
+          }
+        ],
+        "question_type": "single_selection",
+        "select_answer": null,
+        "user_attempted": false
+      },
+      {
+        "id": "33",
+        "question": "What is your preferred option strategy in a Bull Market ?",
+        "options": [
+          {
+            "value": "33a",
+            "label": "Long call"
+          },
+          {
+            "value": "33b",
+            "label": "Short put"
+          },
+          {
+            "value": "33c",
+            "label": "Bull put"
+          },
+          {
+            "value": "33d",
+            "label": "Covered call"
+          },
+          {
+            "value": "33h",
+            "label": "None of the above"
+          }
+        ],
+        "question_type": "multiple_selection",
+        "select_answer": null,
+        "user_attempted": false
+      },
+      {
+        "id": "34",
+        "question": "How do you go about selecting the stocks you trade in?",
+        "options": [
+          {
+            "value": "34a",
+            "label": "NEWS"
+          },
+          {
+            "value": "34b",
+            "label": "Charts"
+          },
+          {
+            "value": "34c",
+            "label": "Future & Options scanner"
+          },
+          {
+            "value": "34d",
+            "label": "Technical scanner"
+          },
+          {
+            "value": "34e",
+            "label": "Own technique"
+          },
+          {
+            "value": "34h",
+            "label": "None of the above"
+          }
+        ],
+        "question_type": "multiple_selection",
+        "select_answer": null,
+        "user_attempted": false,
+        "end_of_questions":false
+      }
+    ],
+    "approachesToTrading_GRP3":
+    [
+      {
+        "id": "35",
+        "question": "What is your biggest trading fear?",
+        "title": "Help us understand your approach when it comes to trading in Futures",
+        "options": [
+          {
+            "value": "35a",
+            "label": "Order not executed by broker"
+          },
+          {
+            "value": "35b",
+            "label": "Being in the wrong long or short"
+          },
+          {
+            "value": "35c",
+            "label": "Missing out on a big opportunity"
+          },
+          {
+            "value": "35d",
+            "label": "Stop loss not triggered by the system"
+          },
+          {
+            "value": "35h",
+            "label": "None of the above"
+          }
+        ],
+        "question_type": "multiple_selection",
+        "select_answer": null,
+        "user_attempted": false
+      },
+      {
+        "id": "36",
+        "question": "What level of risk do you play on any individual futures trade?",
+        "options": [
+          {
+            "value": "36a",
+            "label": "Not defined, opportunity centric"
+          },
+          {
+            "value": "36b",
+            "label": "2% or less"
+          },
+          {
+            "value": "36c",
+            "label": "2 to  5 %"
+          },
+          {
+            "value": "36d",
+            "label": "5%"
+          },
+          {
+            "value": "36h",
+            "label": "None of the above"
+          }
+        ],
+        "question_type": "multiple_selection",
+        "select_answer": null,
+        "user_attempted": false
+      },
+      {
+        "id": "37",
+        "question": "When it comes to being disciplined about trading, most often you see yourself as?",
+        "options": [
+          {
+            "value": "37a",
+            "label": "Not at all"
+          },
+          {
+            "value": "37b",
+            "label": "Varies on each opportunity"
+          },
+          {
+            "value": "37c",
+            "label": "Very disciplined"
+          },
+          {
+            "value": "37h",
+            "label": "None of the above"
+          }
+        ],
+        "question_type": "multiple_selection",
+        "select_answer": null,
+        "user_attempted": false
+      },
+      {
+        "id": "38",
+        "question": "How confident are you to make a reasonable profit over the last 12 months?",
+        "options": [
+          {
+            "value": "38a",
+            "label": "Not confident"
+          },
+          {
+            "value": "38b",
+            "label": "Reasonably confident"
+          },
+          {
+            "value": "38c",
+            "label": "Very confident"
+          },
+          {
+            "value": "38d",
+            "label": "No idea"
+          },
+          {
+            "value": "38h",
+            "label": "None of the above"
+          }
+        ],
+        "question_type": "multiple_selection",
+        "select_answer": null,
+        "user_attempted": false
+      },
+      {
+        "id": "39",
+        "question": "How many trading strategies do you use?",
+        "options": [
+          {
+            "value": "39a",
+            "label": "0"
+          },
+          {
+            "value": "39b",
+            "label": "1 to 2"
+          },
+          {
+            "value": "39c",
+            "label": "2 to 4"
+          },
+          {
+            "value": "39d",
+            "label": "5 and more"
+          },
+          {
+            "value": "39h",
+            "label": "None of the above"
+          }
+        ],
+        "question_type": "single_selection",
+        "select_answer": null,
+        "user_attempted": false
+      },
+      {
+        "id": "40",
+        "question": "Do you keep a record of every trade you make ?",
+        "options": [
+          {
+            "value": "40a",
+            "label": "Yes, Sometimes"
+          },
+          {
+            "value": "40b",
+            "label": "Yes, Always"
+          },
+          {
+            "value": "40c",
+            "label": "No"
+          },
+          {
+            "value": "40h",
+            "label": "None of the above"
+          }
+        ],
+        "question_type": "single_selection",
+        "select_answer": null,
+        "user_attempted": false
+      },
+      {
+        "id": "41",
+        "question": "Do you think its easy to make money trading in Options?",
+        "options": [
+          {
+            "value": "41a",
+            "label": "Very difficult"
+          },
+          {
+            "value": "41b",
+            "label": "Easy, if you know what you're upto"
+          },
+          {
+            "value": "41c",
+            "label": "With some luck, its easy"
+          },
+          {
+            "value": "41d",
+            "label": "Moderate"
+          },
+          {
+            "value": "41h",
+            "label": "None of the above"
+          }
+        ],
+        "question_type": "single_selection",
+        "select_answer": null,
+        "user_attempted": false
+      },
+      {
+        "id": "42",
+        "question": "What is your preferred option strategy in a Bull Market ?",
+        "options": [
+          {
+            "value": "42a",
+            "label": "Long call"
+          },
+          {
+            "value": "42b",
+            "label": "Short put"
+          },
+          {
+            "value": "42c",
+            "label": "Bull put"
+          },
+          {
+            "value": "42d",
+            "label": "Covered call"
+          },
+          {
+            "value": "42h",
+            "label": "None of the above"
+          }
+        ],
+        "question_type": "multiple_selection",
+        "select_answer": null,
+        "user_attempted": false
+      },
+      {
+        "id": "43",
+        "question": "How do you go about selecting the stocks you trade in?",
+        "options": [
+          {
+            "value": "43a",
+            "label": "NEWS"
+          },
+          {
+            "value": "43b",
+            "label": "Charts"
+          },
+          {
+            "value": "43c",
+            "label": "Future & Options scanner"
+          },
+          {
+            "value": "43d",
+            "label": "Technical scanner"
+          },
+          {
+            "value": "43e",
+            "label": "Own technique"
+          },
+          {
+            "value": "43h",
+            "label": "None of the above"
+          }
+        ],
+        "question_type": "multiple_selection",
+        "select_answer": null,
+        "user_attempted": false,
+        "end_of_questions":false
+      }
+    ],
+    "all_sections":
+    [
+      {
+        "id": "44",
+        "title": "Help us understand your approach when it comes to trading and investment",
+        "question": "How long do you stay in a trade?",
+        "options": [
+          {
+            "value": "44a",
+            "label": "Intraday"
+          },
+          {
+            "value": "44b",
+            "label": "Buy Today, Sell Tomorrow"
+          },
+          {
+            "value": "44c",
+            "label": "Few weeks, Short term position"
+          },
+          {
+            "value": "44d",
+            "label": "2 years +"
+          },
+          {
+            "value": "44h",
+            "label": "None of the above"
+          }
+        ],
+        "question_type": "multiple_selection",
+        "select_answer": null,
+        "user_attempted": false
+      },
+      {
+        "id": "45",
+        "question": "What is your source of information for stock selection?",
+        "options": [
+          {
+            "value": "45a",
+            "label": "News"
+          },
+          {
+            "value": "45b",
+            "label": "Charts"
+          },
+          {
+            "value": "45c",
+            "label": "Technical"
+          },
+          {
+            "value": "45d",
+            "label": "Fundamental"
+          },
+          {
+            "value": "45e",
+            "label": "Self Strategy"
+          },
+          {
+            "value": "45h",
+            "label": "None of the above"
+          }
+        ],
+        "question_type": "multiple_selection",
+        "select_answer": null,
+        "user_attempted": false
+      },
+      {
+        "id": "46",
+        "question": "What level of risk do you play on any individual cash trade?",
+        "options": [
+          {
+            "value": "46a",
+            "label": "Not defined, opportunity centric"
+          },
+          {
+            "value": "46b",
+            "label": "2% or less"
+          },
+          {
+            "value": "46c",
+            "label": "2 to  5 %"
+          },
+          {
+            "value": "46d",
+            "label": "5%"
+          },
+          {
+            "value": "46h",
+            "label": "None of the above"
+          }
+        ],
+        "question_type": "single_selection",
+        "select_answer": null,
+        "user_attempted": false
+      },
+      {
+        "id": "47",
+        "question": "What is your ultimate trading goal?",
+        "options": [
+          {
+            "value": "47a",
+            "label": "Make trading as my primary source of income"
+          },
+          {
+            "value": "47b",
+            "label": "Make extra money to spend on indulgence"
+          },
+          {
+            "value": "47c",
+            "label": "To build wealth"
+          },
+          {
+            "value": "47d",
+            "label": "Extra income over salary/ Secondary source of income"
+          },
+          {
+            "value": "47h",
+            "label": "None of the above"
+          }
+        ],
+        "question_type": "single_selection",
+        "select_answer": null,
+        "user_attempted": false
+      },
+      {
+        "id": "48",
+        "question": "What is your biggest trading fear?",
+        "title": "Help us understand your approach when it comes to trading in Futures",
+        "options": [
+          {
+            "value": "48a",
+            "label": "Order not executed by broker"
+          },
+          {
+            "value": "48b",
+            "label": "Being in the wrong long or short"
+          },
+          {
+            "value": "48c",
+            "label": "Missing out on a big opportunity"
+          },
+          {
+            "value": "48d",
+            "label": "Stop loss not triggered by the system"
+          },
+          {
+            "value": "48h",
+            "label": "None of the above"
+          }
+        ],
+        "question_type": "multiple_selection",
+        "select_answer": null,
+        "user_attempted": false
+      },
+      {
+        "id": "49",
+        "question": "What level of risk do you play on any individual futures trade?",
+        "options": [
+          {
+            "value": "49a",
+            "label": "Not defined, opportunity centric"
+          },
+          {
+            "value": "49b",
+            "label": "2% or less"
+          },
+          {
+            "value": "49c",
+            "label": "2 to  5 %"
+          },
+          {
+            "value": "49d",
+            "label": "5%"
+          },
+          {
+            "value": "49h",
+            "label": "None of the above"
+          }
+        ],
+        "question_type": "multiple_selection",
+        "select_answer": null,
+        "user_attempted": false
+      },
+      {
+        "id": "50",
+        "question": "When it comes to being disciplined about trading, most often you see yourself as?",
+        "options": [
+          {
+            "value": "50a",
+            "label": "Not at all"
+          },
+          {
+            "value": "50b",
+            "label": "Varies on each opportunity"
+          },
+          {
+            "value": "50c",
+            "label": "Very disciplined"
+          },
+          {
+            "value": "50h",
+            "label": "None of the above"
+          }
+        ],
+        "question_type": "multiple_selection",
+        "select_answer": null,
+        "user_attempted": false
+      },
+      {
+        "id": "51",
+        "question": "How confident are you to make a reasonable profit over the last 12 months?",
+        "options": [
+          {
+            "value": "51a",
+            "label": "Not confident"
+          },
+          {
+            "value": "51b",
+            "label": "Reasonably confident"
+          },
+          {
+            "value": "51c",
+            "label": "Very confident"
+          },
+          {
+            "value": "51d",
+            "label": "No idea"
+          },
+          {
+            "value": "51h",
+            "label": "None of the above"
+          }
+        ],
+        "question_type": "multiple_selection",
+        "select_answer": null,
+        "user_attempted": false,
+        "end_of_questions":false
+      },
+      {
+        "id": "52",
+        "question": "How many trading strategies do you use?",
+        "title": "Help us understand your approach when it comes to trading in Options",
+        "options": [
+          {
+            "value": "52a",
+            "label": "0"
+          },
+          {
+            "value": "52b",
+            "label": "1 to 2"
+          },
+          {
+            "value": "52c",
+            "label": "2 to 4"
+          },
+          {
+            "value": "52d",
+            "label": "5 and more"
+          },
+          {
+            "value": "52h",
+            "label": "None of the above"
+          }
+        ],
+        "question_type": "single_selection",
+        "select_answer": null,
+        "user_attempted": false
+      },
+      {
+        "id": "53",
+        "question": "Do you keep a record of every trade you make ?",
+        "options": [
+          {
+            "value": "53a",
+            "label": "Yes, Sometimes"
+          },
+          {
+            "value": "53b",
+            "label": "Yes, Always"
+          },
+          {
+            "value": "53c",
+            "label": "No"
+          },
+          {
+            "value": "53h",
+            "label": "None of the above"
+          }
+        ],
+        "question_type": "single_selection",
+        "select_answer": null,
+        "user_attempted": false
+      },
+      {
+        "id": "54",
+        "question": "Do you think its easy to make money trading in Options?",
+        "options": [
+          {
+            "value": "54a",
+            "label": "Very difficult"
+          },
+          {
+            "value": "54b",
+            "label": "Easy, if you know what you're upto"
+          },
+          {
+            "value": "54c",
+            "label": "With some luck, its easy"
+          },
+          {
+            "value": "54d",
+            "label": "Moderate"
+          },
+          {
+            "value": "54h",
+            "label": "None of the above"
+          }
+        ],
+        "question_type": "single_selection",
+        "select_answer": null,
+        "user_attempted": false
+      },
+      {
+        "id": "55",
+        "question": "What is your preferred option strategy in a Bull Market ?",
+        "options": [
+          {
+            "value": "55a",
+            "label": "Long call"
+          },
+          {
+            "value": "55b",
+            "label": "Short put"
+          },
+          {
+            "value": "55c",
+            "label": "Bull put"
+          },
+          {
+            "value": "55d",
+            "label": "Covered call"
+          },
+          {
+            "value": "55h",
+            "label": "None of the above"
+          }
+        ],
+        "question_type": "multiple_selection",
+        "select_answer": null,
+        "user_attempted": false
+      },
+      {
+        "id": "56",
+        "question": "How do you go about selecting the stocks you trade in?",
+        "options": [
+          {
+            "value": "56a",
+            "label": "NEWS"
+          },
+          {
+            "value": "56b",
+            "label": "Charts"
+          },
+          {
+            "value": "56c",
+            "label": "Future & Options scanner"
+          },
+          {
+            "value": "56d",
+            "label": "Technical scanner"
+          },
+          {
+            "value": "56e",
+            "label": "Own technique"
+          },
+          {
+            "value": "56h",
+            "label": "None of the above"
+          }
+        ],
+        "question_type": "multiple_selection",
+        "select_answer": null,
+        "user_attempted": false,
+        "end_of_questions":false
+      }
+    ],
+    "future_group":
+    [
+      {
+        "id": "57",
+        "question": "What is your biggest trading fear?",
+        "title": "Help us understand your approach when it comes to trading in Futures",
+        "options": [
+          {
+            "value": "57a",
+            "label": "Order not executed by broker"
+          },
+          {
+            "value": "57b",
+            "label": "Being in the wrong long or short"
+          },
+          {
+            "value": "57c",
+            "label": "Missing out on a big opportunity"
+          },
+          {
+            "value": "57d",
+            "label": "Stop loss not triggered by the system"
+          },
+          {
+            "value": "57h",
+            "label": "None of the above"
+          }
+        ],
+        "question_type": "multiple_selection",
+        "select_answer": null,
+        "user_attempted": false
+      },
+      {
+        "id": "58",
+        "question": "What level of risk do you play on any individual futures trade?",
+        "options": [
+          {
+            "value": "58a",
+            "label": "Not defined, opportunity centric"
+          },
+          {
+            "value": "58b",
+            "label": "2% or less"
+          },
+          {
+            "value": "58c",
+            "label": "2 to  5 %"
+          },
+          {
+            "value": "58d",
+            "label": "5%"
+          },
+          {
+            "value": "58h",
+            "label": "None of the above"
+          }
+        ],
+        "question_type": "multiple_selection",
+        "select_answer": null,
+        "user_attempted": false
+      },
+      {
+        "id": "59",
+        "question": "When it comes to being disciplined about trading, most often you see yourself as?",
+        "options": [
+          {
+            "value": "59a",
+            "label": "Not at all"
+          },
+          {
+            "value": "59b",
+            "label": "Varies on each opportunity"
+          },
+          {
+            "value": "59c",
+            "label": "Very disciplined"
+          },
+          {
+            "value": "59h",
+            "label": "None of the above"
+          }
+        ],
+        "question_type": "multiple_selection",
+        "select_answer": null,
+        "user_attempted": false
+      },
+      {
+        "id": "60",
+        "question": "How confident are you to make a reasonable profit over the last 12 months?",
+        "options": [
+          {
+            "value": "60a",
+            "label": "Not confident"
+          },
+          {
+            "value": "60b",
+            "label": "Reasonably confident"
+          },
+          {
+            "value": "60c",
+            "label": "Very confident"
+          },
+          {
+            "value": "60d",
+            "label": "No idea"
+          },
+          {
+            "value": "60h",
+            "label": "None of the above"
+          }
+        ],
+        "question_type": "multiple_selection",
+        "select_answer": null,
+        "user_attempted": false,
+        "end_of_questions":false
+      }
+    ],
+    "options_group":
+    [
+      {
+        "id": "61",
+        "question": "How many trading strategies do you use?",
+        "title": "Help us understand your approach when it comes to trading in Options",
+        "options": [
+          {
+            "value": "61a",
+            "label": "0"
+          },
+          {
+            "value": "61b",
+            "label": "1 to 2"
+          },
+          {
+            "value": "61c",
+            "label": "2 to 4"
+          },
+          {
+            "value": "61d",
+            "label": "5 and more"
+          },
+          {
+            "value": "61h",
+            "label": "None of the above"
+          }
+        ],
+        "question_type": "single_selection",
+        "select_answer": null,
+        "user_attempted": false
+      },
+      {
+        "id": "62",
+        "question": "Do you keep a record of every trade you make ?",
+        "options": [
+          {
+            "value": "62a",
+            "label": "Yes, Sometimes"
+          },
+          {
+            "value": "62b",
+            "label": "Yes, Always"
+          },
+          {
+            "value": "62c",
+            "label": "No"
+          },
+          {
+            "value": "62h",
+            "label": "None of the above"
+          }
+        ],
+        "question_type": "single_selection",
+        "select_answer": null,
+        "user_attempted": false
+      },
+      {
+        "id": "63",
+        "question": "Do you think its easy to make money trading in Options?",
+        "options": [
+          {
+            "value": "63a",
+            "label": "Very difficult"
+          },
+          {
+            "value": "63b",
+            "label": "Easy, if you know what you're upto"
+          },
+          {
+            "value": "63c",
+            "label": "With some luck, its easy"
+          },
+          {
+            "value": "63d",
+            "label": "Moderate"
+          },
+          {
+            "value": "63h",
+            "label": "None of the above"
+          }
+        ],
+        "question_type": "single_selection",
+        "select_answer": null,
+        "user_attempted": false
+      },
+      {
+        "id": "64",
+        "question": "What is your preferred option strategy in a Bull Market ?",
+        "options": [
+          {
+            "value": "64a",
+            "label": "Long call"
+          },
+          {
+            "value": "64b",
+            "label": "Short put"
+          },
+          {
+            "value": "64c",
+            "label": "Bull put"
+          },
+          {
+            "value": "64d",
+            "label": "Covered call"
+          },
+          {
+            "value": "64h",
+            "label": "None of the above"
+          }
+        ],
+        "question_type": "multiple_selection",
+        "select_answer": null,
+        "user_attempted": false
+      },
+      {
+        "id": "65",
+        "question": "How do you go about selecting the stocks you trade in?",
+        "options": [
+          {
+            "value": "65a",
+            "label": "NEWS"
+          },
+          {
+            "value": "65b",
+            "label": "Charts"
+          },
+          {
+            "value": "65c",
+            "label": "Future & Options scanner"
+          },
+          {
+            "value": "65d",
+            "label": "Technical scanner"
+          },
+          {
+            "value": "65e",
+            "label": "Own technique"
+          },
+          {
+            "value": "65h",
+            "label": "None of the above"
+          }
+        ],
+        "question_type": "multiple_selection",
+        "select_answer": null,
+        "user_attempted": false,
+        "end_of_questions":false
+      }
+    ],
+    "investment_group":
+    [
+      {
+        "id": "66",
+        "title": "Help us understand your approach when it comes to trading and investment",
+        "question": "How long do you stay in a trade?",
+        "options": [
+          {
+            "value": "66a",
+            "label": "Intraday"
+          },
+          {
+            "value": "66b",
+            "label": "Buy Today, Sell Tomorrow"
+          },
+          {
+            "value": "66c",
+            "label": "Few weeks, Short term position"
+          },
+          {
+            "value": "66d",
+            "label": "2 years +"
+          },
+          {
+            "value": "66h",
+            "label": "None of the above"
+          }
+        ],
+        "question_type": "multiple_selection",
+        "select_answer": null,
+        "user_attempted": false
+      },
+      {
+        "id": "67",
+        "question": "What is your source of information for stock selection?",
+        "options": [
+          {
+            "value": "67a",
+            "label": "News"
+          },
+          {
+            "value": "67b",
+            "label": "Charts"
+          },
+          {
+            "value": "67c",
+            "label": "Technical"
+          },
+          {
+            "value": "67d",
+            "label": "Fundamental"
+          },
+          {
+            "value": "67e",
+            "label": "Self Strategy"
+          },
+          {
+            "value": "67h",
+            "label": "None of the above"
+          }
+        ],
+        "question_type": "multiple_selection",
+        "select_answer": null,
+        "user_attempted": false
+      },
+      {
+        "id": "68",
+        "question": "What level of risk do you play on any individual cash trade?",
+        "options": [
+          {
+            "value": "68a",
+            "label": "Not defined, opportunity centric"
+          },
+          {
+            "value": "68b",
+            "label": "2% or less"
+          },
+          {
+            "value": "68c",
+            "label": "2 to  5 %"
+          },
+          {
+            "value": "68d",
+            "label": "5%"
+          },
+          {
+            "value": "68h",
+            "label": "None of the above"
+          }
+        ],
+        "question_type": "single_selection",
+        "select_answer": null,
+        "user_attempted": false
+      },
+      {
+        "id": "69",
+        "question": "What is your ultimate trading goal?",
+        "options": [
+          {
+            "value": "69a",
+            "label": "Make trading as my primary source of income"
+          },
+          {
+            "value": "69b",
+            "label": "Make extra money to spend on indulgence"
+          },
+          {
+            "value": "69c",
+            "label": "To build wealth"
+          },
+          {
+            "value": "69d",
+            "label": "Extra income over salary/ Secondary source of income"
+          },
+          {
+            "value": "69h",
+            "label": "None of the above"
+          }
+        ],
+        "question_type": "single_selection",
+        "select_answer": null,
+        "user_attempted": false
+      }
+    ],
+    "terms_and_conditon": false,
+    "agree_to_invest_with_sharekhan":false,
+    "is_completed": false,
+    "is_lead_user": false
+  }
